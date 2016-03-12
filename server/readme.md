@@ -1,13 +1,12 @@
-#ÆäÖÐµÄapache2.confÊÇ¶ÔÓ¦¶Ôapache2µÄÅäÖÃÎÄ¼þ£¬Ö÷ÒªÊÇÌí¼Ó²¿Êðwsgi£»
-#wsgi.wsgiÎÄ¼þÊÇÖ¸¶¨python¹¤³ÌÂ·¾¶µÄ£¬°´ÅäÖÃµÄÂ·¾¶·ÅÖÃ¹¤³Ì£»
+å…¶ä¸­çš„apache2.confæ˜¯å¯¹åº”å¯¹apache2çš„é…ç½®æ–‡ä»¶ï¼Œä¸»è¦æ˜¯æ·»åŠ éƒ¨ç½²wsgiï¼›
+wsgi.wsgiæ–‡ä»¶æ˜¯æŒ‡å®špythonå·¥ç¨‹è·¯å¾„çš„ï¼ŒæŒ‰é…ç½®çš„è·¯å¾„æ”¾ç½®å·¥ç¨‹ï¼›
 
-#Ê¹ÓÃµÄÊÇmysql£¬ÓÃmysql½¨Ò»¸ömreaderµÄÊý¾Ý¿â
-#BX-Books.sqlÊÇ¶ÔÓ¦Êé±¾±í¸ñµÄ²åÈëÊý¾Ý£»
-#mreader.sqlÊÇ¶ÔÓ¦³ýÊéµÄ±í¸ñÍâÆäËû±í¸ñ½¨Á¢µÄÊý¾Ý¿âÎÄ¼þ£»
+ä½¿ç”¨çš„æ˜¯mysqlï¼Œç”¨mysqlå»ºä¸€ä¸ªmreaderçš„æ•°æ®åº“
+BX-Books.sqlæ˜¯å¯¹åº”ä¹¦æœ¬è¡¨æ ¼çš„æ’å…¥æ•°æ®ï¼›
+mreader.sqlæ˜¯å¯¹åº”é™¤ä¹¦çš„è¡¨æ ¼å¤–å…¶ä»–è¡¨æ ¼å»ºç«‹çš„æ•°æ®åº“æ–‡ä»¶ï¼›
 
+manage.py æ˜¯ç”¨mysqldbè®©æ•°æ®åº“ä¸Žpythonç›¸è¿žçš„æ–‡ä»¶ï¼›
 
-#manage.py ÊÇÓÃmysqldbÈÃÊý¾Ý¿âÓëpythonÏàÁ¬µÄÎÄ¼þ£»
+test.pyæ˜¯æœåŠ¡ç«¯ä¸»ä»£ç 
 
-#test.pyÊÇ·þÎñ¶ËÖ÷´úÂë
-
-#ReaderPhantom.apk ÊÇ×îÖÕÕ¹Ê¾µÄandroid³ÉÆ·£»
+ReaderPhantom.apk æ˜¯æœ€ç»ˆå±•ç¤ºçš„androidæˆå“ï¼›
